@@ -50,7 +50,7 @@ const controller=()=>{
        if(base.canPlay==="yes")
        { base['player'+base.active]+=base.allDraw;
        displayAdd();
-        if(base['player'+base.active]<15){
+        if(base['player'+base.active]<100){
         displayAdd();
         smallReset();
         changeDisplayActive();
