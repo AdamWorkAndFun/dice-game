@@ -42,6 +42,7 @@ const controller=()=>{
         displayDraw();
         }else{
         changeDisplayActive();
+        smallReset();
         displayAdd();
         }
     }
