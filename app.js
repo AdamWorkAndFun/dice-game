@@ -41,8 +41,8 @@ const controller=()=>{
         document.querySelector('.img').src="./img/dice-"+number+".png"
         displayDraw();
         }else{
+        document.getElementById('btn3').removeEventListener('click',add);
         changeDisplayActive();
-        smallReset();
         displayAdd();
         }
     }
